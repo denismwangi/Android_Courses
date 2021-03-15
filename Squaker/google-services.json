@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "588317057499",
+    "project_id": "squak-4857c",
+    "storage_bucket": "squak-4857c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588317057499:android:2ae5a2e671407ec34407fe",
+        "android_client_info": {
+          "package_name": "com.example.squaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588317057499-848mhtndjl2ua8sp26062h9ji895aeog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.squaker",
+            "certificate_hash": "09eaa6327ce5b9ec4350e1949dbc1c13b6c5dcec"
+          }
+        },
+        {
+          "client_id": "588317057499-gh3u9vkjm49hu4s1i5qq47kqt1jv82ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjhOKsw54J7sbo5Zs8PVWp4ncUDzhGLX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588317057499-gh3u9vkjm49hu4s1i5qq47kqt1jv82ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
