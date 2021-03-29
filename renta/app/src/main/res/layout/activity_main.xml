@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="131dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#ffd700"
+            android:text="add"
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/relativeLayout1"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="150dp"
+            android:text="sync"
+            android:onClick="syncUser"
+            android:drawableLeft="@drawable/ic_sync_black_24dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout3"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

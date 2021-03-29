@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newUserActivity">
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter firstname"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:hint="enter lastname"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/fname"
+        app:layout_constraintVertical_bias="0.169" />
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:hint="enter user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lname"
+        app:layout_constraintVertical_bias="0.169" />
+    <EditText
+        android:id="@+id/emain"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:hint="enter email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/uname"
+        app:layout_constraintVertical_bias="0.169" />
+    <EditText
+        android:id="@+id/cont"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:hint="enter contact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/emain"
+        app:layout_constraintVertical_bias="0.169" />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:hint="enter password "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cont"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:onClick="addNewUser"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/pass"
+
+
+        app:layout_constraintVertical_bias="0.228" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
