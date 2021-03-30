@@ -129,7 +129,7 @@ public class db extends SQLiteOpenHelper {
     public String getSyncStatus(){
         String msg = null;
         if(this.dbSyncCount() == 0){
-            msg = "SQLite and Remote MySQL DBs are in Sync!";
+            msg = "SQLite and Remote DBs are in Sync!";
         }else{
             msg = "DB Sync needed\n";
         }
