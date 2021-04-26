@@ -99,13 +99,13 @@ public class db extends SQLiteOpenHelper {
      */
     public String composeJSONfromSQLite(){
         ArrayList<HashMap<String, String>> wordList;
-        wordList = new ArrayList<HashMap<String, String>>();
+        wordList = new ArrayList<>();
         String selectQuery = "SELECT  * FROM users where udpateStatus = '"+"no"+"'";
         SQLiteDatabase database = this.getWritableDatabase();
         Cursor cursor = database.rawQuery(selectQuery, null);
         if (cursor.moveToFirst()) {
             do {
-                HashMap<String, String> map = new HashMap<String, String>();
+                HashMap<String, String> map = new HashMap<>();
                 map.put("userId", cursor.getString(0));
                 map.put("firstname", cursor.getString(1));
                 map.put("lastname", cursor.getString(2));
